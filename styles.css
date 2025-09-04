@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+.card{
+	width: 300px;
+	padding:20px;
+	background-color: #fff; /* Change to your desired color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.card-image {
+    width: 100%; /* Make the image responsive */
+}
+.card-title {
+    font-size: 24px; /* Adjust size */
+}
+.card-price {
+    font-size: 20px;
+    color: green; /* Change color as needed */
+}
+.card-description {
+    font-size: 16px;
+}
+.buy-now {
+    padding: 10px 20px;
+    background-color: blue; /* Change to your desired color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
